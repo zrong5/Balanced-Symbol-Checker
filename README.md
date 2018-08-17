@@ -25,11 +25,11 @@ For the unbalanced expression, print the “up arrow” character at the place w
 occurred. 
 
 The following are some examples output showing the 4 possible outcomes:
-( ( a a ) < > [ [ [ { [ x ] } ]]] <>)
-Expression is balanced
-( ( a a ) < > [ [ [ { [ x ] ]]] <>)
-                            ^ expecting }
-( ( a a ) ) < > > [ [ [ { [ x ] } ]]] <>)
-            ^ missing <
-( ( a a ) < > [ [ [ { [ x ] } ]]]
-          ^ missing ) 
+* ( ( a a ) < > [ [ [ { [ x ] } ]]] <>)
+* Expression is balanced
+* ( ( a a ) < > [ [ [ { [ x ] ]]] <>)
+*                           ^ expecting }
+* ( ( a a ) ) < > > [ [ [ { [ x ] } ]]] <>)
+*           ^ missing <
+* ( ( a a ) < > [ [ [ { [ x ] } ]]]
+*         ^ missing ) 
